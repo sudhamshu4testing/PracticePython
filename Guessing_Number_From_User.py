@@ -11,11 +11,11 @@ guess = 0
 count = 0
 
 #We will use while loop here to check that "guess is not the random number" and "guess is not exit"
-while guess != ran and guess != 'exit':
-	guess = int(input("Provide a number to see if you are guessed it correctly or not : "))
+while guess != ran and guess != exit:
+	guess = input("Provide a number to see if you are guessed it correctly or not : ")
 
 	#if loop to see if the guess = exit or not
-	if guess == 'exit':
+	if guess == exit:
 		break
 
 	guess = int(guess)
